@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivu Travel</title>
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" /> -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" />
+    <link rel="stylesheet" href="./assets/css/animation.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="canonical" href="https://wowjs.uk/">
+
+</head>
+
+<body id="home">
+    <div class="wrapper">
+        <header class="header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand logo" href="./index.html">
+                        <img src="./assets/images/logo.png" alt="">
+                    </a>
+                    <div class="navbar-collapse offcanvas-collapse left" id="nav-main">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown has-megamenu">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                    Du lịch
+                                </a>
+                                <div class="dropdown-menu megamenu" role="menu">
+                                    <div class="row py-lg-5 ml-0 mr-0">
+                                        <div class="col-lg-2">
+                                            <ul class="list-unstyled menu-tab-items">
+                                                <li class="active">Du lịch trong nước</li>
+                                                <li>Du lịch nước ngoài</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-lg-10 col-md-12 mx-auto">
+                                            <div class="col-lg-9 col-md-9 menu-tab-panels">
+                                                <div class="row g-3 active">
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="col-megamenu">
+                                                            <h6 class="title fw-bold text-uppercase">
+                                                                <a href="./tours.html">Tour Miền Bắc</a>
+                                                            </h6>
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Hà Nội</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Hải Phòng</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Hạ Long</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Bắc Ninh</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Phú Thọ</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="fw-bold text-decoration-underline" href="./tours.html">Xem tất cả</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="col-megamenu">
+                                                            <h6 class="title fw-bold text-uppercase">
+                                                                <a href="./tours.html">Tour Miền Trung</a>
+                                                            </h6>
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Huế</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Quảng Trị</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Quảng Bình</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Đà Nẵng</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Quảng Nam</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="fw-bold text-decoration-underline" href="./tours.html">Xem tất cả</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="col-megamenu">
+                                                            <h6 class="title fw-bold text-uppercase">
+                                                                <a href="./tours.html">Tour Miền Tây Nam Bộ</a>
+                                                            </h6>
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Phú Quốc</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Tiền Giang</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Cần Thơ</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Vĩnh Long</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Sóc Trăng</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="fw-bold text-decoration-underline" href="./tours.html">Xem tất cả</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="col-megamenu">
+                                                            <h6 class="title fw-bold text-uppercase">
+                                                                <a href="./tours.html">Tour Miền Đông Nam Bộ</a>
+                                                            </h6>
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Đồng Nai</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Bà Rịa - Vũng Tàu</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Côn Đảo</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch TP. Hồ Chí Minh</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Tây Ninh</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="fw-bold text-decoration-underline" href="./tours.html">Xem tất cả</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="row g-3">
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="col-megamenu">
+                                                            <h6 class="title fw-bold text-uppercase">
+                                                                <a href="./tours.html">Tour Châu Phi</a>
+                                                            </h6>
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Ai Cập</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Nam Phi</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Mauritius</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Kenya</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Madagascar </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="fw-bold text-decoration-underline" href="./tours.html">Xem tất cả</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                    <div class="col-lg-3 col-6">
+                                                        <div class="col-megamenu">
+                                                            <h6 class="title fw-bold text-uppercase">
+                                                                <a href="./tours.html">Tour Châu Á</a>
+                                                            </h6>
+                                                            <ul class="list-unstyled">
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Campuchia</a></li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Trung Quốc</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Hồng Kông &amp; Macau</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Thái Lan</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="./tour-detail.html">Du lịch Malaysia</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="fw-bold text-decoration-underline" href="./tours.html">Xem tất cả</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown mr-4">
+                                <a class="nav-link" href="#" target="_blank" rel="nofollow" role="button">
+                                Vietravel MICE
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown mr-4">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Vận chuyển
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="" target="_blank" rel="nofollow noreferrer">Thuê xe</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="" target="_blank" rel="nofollow noreferrer">Vé máy bay</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown mr-4">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Tin tức
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li>
+                                        <a class="dropdown-item" href="./news.html">Tin mới</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./news.html">Tin tức du lịch</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./news.html">Cẩm nang du lịch</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="./news.html">Kinh nghiệm du lịch</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                                Khuyến mãi
+                                </a>
+                                <div class="dropdown-menu promotion megamenu" role="menu">
+                                    <div class="row p-lg-5 ml-0 mr-0">
+                                        <div class="col-md-12 col-sm-12">
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="./news-detail.html">Vietravel &amp; Sacombank: Quẹt thẻ liền tay - Giảm ngay 1 triệu đồng</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./news-detail.html">Khuyến mại Hè 2023 “Hè vui như hội – Gấp bội yêu thương”: Vietravel ưu đãi “Thanh toán thẻ JCB – Tặng vali cao cấp”</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./news-detail.html">Vietravel triển khai chương trình ưu đãi cùng VNPAY “Trúng deal to – Du lịch chẳng lo”</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./news-detail.html">Vietravel &amp; JCB tung ưu đãi “Thanh toán liền tay - Nhận ngay deal xịn”</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./news-detail.html">Vietravel &amp; Sacombank tung ưu đãi “Tiền về đầy ví - Du hí thả ga”</a>
+                                                </li>
+                                                <li>
+                                                    <a href="./news-detail.html">Du lịch thật dễ dàng và tiết kiệm cùng VIETRAVEL - BIDV</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-9 col-sm-12">
+                                            <div class="row g-3">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="" rel="nofollow noreferrer" target="_blank"> VietravelPlus </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html"> Liên hệ </a>
+                            </li>
+                        </ul>
+                        <div class="navbar-nav mr-auto mr-lg-0 ml-lg-auto right">
+                            <div class="form-search">
+                                <form action="" method="post">
+                                    <input type="text" name="search" class="ipt" placeholder="Bắt đầu tìm kiếm...">
+                                    <input type="submit" name="submit" class="sm" value="" id="btnSearchTour">
+                                    <i class="fa-sharp fa-light fa-magnifying-glass"></i>
+                                </form>
+                                <div class="form-search-wrapper"></div>
+                            </div>
+                            <div class="group-features">
+                                <div class="account item">
+                                    <a href="">
+                                        <i class="fal fa-user"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="navbox-btn d-block d-lg-none">
+                        <button class="bar-toggle-menu">
+                            <i class="fa-sharp fa-solid fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="news">
+                <div class="container">
+                    <div class="row">
+                        <ul class="breakcrumbs breadcrumb__wrapper d-flex align-items-center">
+                            <li class="breadcrumb-item">
+                                <a href="" class="">
+                                    <span>Du lịch</span>
+                                </a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="" class="">
+                                    <span>Tin tức</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="news__heading text-center container">
+                        <div class="row py-lg-5">
+                            <div class="col-lg-10 col-md-12 mx-auto">
+                                <h1 class="fw-bold mb-3">Tin tức Vietravel</h1>
+                                <div class="d-none d-lg-block">
+                                    <div class="row">
+                                        <div class="col-4">
+                                            <a href="" class="fw-bold text-decoration-none">Tin tức du lịch</a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="" class="fw-bold text-decoration-none">Cẩm nang du lịch</a>
+                                        </div>
+                                        <div class="col-4">
+                                            <a href="" class="fw-bold text-decoration-none">Kinh nghiệm du lịch</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h2>Tin tức du lịch</h2>
+                    <div class="news-list mb-5">
+                        <div class="row">
+                            <div class="col-md-7 col-sm-12">
+                                <article class="news-item__big">
+                                    <div class="card mb-3">
+                                        <div class="news-item__big__image">
+                                            <a href="./news-detail.html">
+                                                <img src="https://media.vietravel.com/images/news/du-lich-da-nang-00.png" class="card-img-top" alt="...">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="news-item__category fw-bold mb-3">Tin tức dữ liệu</div>
+                                            <h3 class="card-title news-item__title fw-bold mb-3 h2 h3-sm h2-md">
+                                                <a href="./news-detail.html">5 khách sạn ngắm "view triệu đô" khi du lịch Đà Nẵng mùa lễ hội Pháo hoa Quốc tế 2023</a>
+                                            </h3>
+                                            <p class="card-text">
+                                                <small class="news-item__date text-muted">
+                                                31/05/2023
+                                                </small>
+                                                <small class="text-muted news-item__author fw-bold d-none">
+                                                    Theo Vietravel
+                                                </small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="col-md-5 col-sm-12">
+                                <article class="news-item__small mb-3">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-12 mb-3">
+                                                <div class="news-item__small__image">
+                                                    <a href="./news-detail.html">
+                                                        <img src="https://media.vietravel.com/images/news/du-lich-singapore-00.png" class="card-img-top" alt="...">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-sm-12">
+                                                <div class="card-body">
+                                                    <div class="news-item__category fw-bold mb-2">Tin tức dữ liệu</div>
+                                                    <h3 class="card-title news-item__small__title h5 h6-sm h5-md fw-bold mb-2">
+                                                        <a href="./news-detail.html">Kinh nghiệm du lịch Singapore - chiêm ngưỡng vẻ đẹp quốc đảo Sư Tử</a>
+                                                    </h3>
+                                                    <p class="card-text">
+                                                        <small class="news__new-thread__date text-muted">
+                                                    31/05/2023
+                                                    </small>
+                                                        <small class="text-muted news__new-thread__author fw-bold d-none">
+                                                    Theo Vietravel
+                                                    </small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="news-item__small mb-3">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-12 mb-3">
+                                                <div class="news-item__small__image">
+                                                    <a href="./news-detail.html">
+                                                        <img src="https://media.vietravel.com/images/news/du-lich-singapore-00.png" class="card-img-top" alt="...">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-sm-12">
+                                                <div class="card-body">
+                                                    <div class="news-item__category fw-bold mb-2">Tin tức dữ liệu</div>
+                                                    <h3 class="card-title news-item__small__title h5 h6-sm h5-md fw-bold mb-2">
+                                                        <a href="./news-detail.html">Kinh nghiệm du lịch Singapore - chiêm ngưỡng vẻ đẹp quốc đảo Sư Tử</a>
+                                                    </h3>
+                                                    <p class="card-text">
+                                                        <small class="news__new-thread__date text-muted">
+                                                    31/05/2023
+                                                    </small>
+                                                        <small class="text-muted news__new-thread__author fw-bold d-none">
+                                                    Theo Vietravel
+                                                    </small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                                <article class="news-item__small mb-3">
+                                    <div class="card">
+                                        <div class="row">
+                                            <div class="col-md-5 col-sm-12 mb-3">
+                                                <div class="news-item__small__image">
+                                                    <a href="./news-detail.html">
+                                                        <img src="https://media.vietravel.com/images/news/du-lich-singapore-00.png" class="card-img-top" alt="...">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-7 col-sm-12">
+                                                <div class="card-body">
+                                                    <div class="news-item__category fw-bold mb-2">Tin tức dữ liệu</div>
+                                                    <h3 class="card-title news-item__small__title h5 h6-sm h5-md fw-bold mb-2">
+                                                        <a href="./news-detail.html">Kinh nghiệm du lịch Singapore - chiêm ngưỡng vẻ đẹp quốc đảo Sư Tử</a>
+                                                    </h3>
+                                                    <p class="card-text">
+                                                        <small class="news__new-thread__date text-muted">
+                                                    31/05/2023
+                                                    </small>
+                                                        <small class="text-muted news__new-thread__author fw-bold d-none">
+                                                    Theo Vietravel
+                                                    </small>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news-list-nomal mb-5">
+                        <article class="news-item card card-full hover-a py-4">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="news-item__image">
+                                        <a href="">
+                                            <img src="https://media.vietravel.com/images/news/du-lich-phap-mua-he-00.png" class="img-responsive pic-news-l">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 col-sm-12">
+                                    <div class="card-body">
+                                        <h3 class="card-title h2 h3-sm h2-md fw-bold mb-3">
+                                            <a href="">Ngất ngây giữa cánh đồng hoa oải hương khi du lịch Pháp mùa hè</a>
+                                        </h3>
+                                        <div class="card-text mb-2 text-muted small mb-3">
+                                            <span class="d-none d-sm-inline me-1">
+                                                <a href="" class="news-item__category fw-bold">Tin tức du lịch</a>
+                                            </span>
+                                            <time datetime="29/05/2023"> </time>
+                                        </div>
+                                        <p class="card-text">
+                                            Pháp luôn là một điểm đến vô cùng hấp dẫn trong mỗi tour du lịch Châu Âu. Nước Pháp mang đến cho mỗi người những trải nghiệm vô cùng đáng nhớ. Từ những con phố với các thương hiệu thời trang nổi tiếng thế giới, tới những điểm du lịch tuyệt đẹp. Tất cả
+                                            đã giúp nước Pháp có nền du lịch hấp dẫn. Và khi đến châu u thì bạn đừng quen ghé thăm và chiêm ngưỡng vẻ đẹp thơ mộng của những cánh đồng hoa Lavender ở Pháp nhé!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="news__travel-tips mb-5">
+                        <div class="d-flex mb-3 justify-content-between news__travel-tips__heading align-items-center">
+                            <h2 class="fw-bold">Cẩm nang du lịch</h2>
+                            <a href="" class="fw-bold h6">Xem tất cả</a>
+                        </div>
+                        <div class="news__travel-tips__list">
+                            <div class="row g-3">
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="card card-full news__travel-tips__item position-relative">
+                                        <div class="news__travel-tips__item__image">
+                                            <a href="">
+                                                <img src="https://wiki-travel.com.vn/uploads/post/camnhi-233231043235-du-lich-khao-yai-thai-lan.jpg">
+                                            </a>
+                                            <div class="news__travel-tips__item__information position-absolute p-3 bottom-0 w-100 bg-shadow">
+                                                <h3 class="h3 h4-sm h3-md card-title mb-3">
+                                                    <a href="" class="text-white">
+                                                        Địa điểm du lịch mùa hè ở Thái Lan - Khao Yai yên bình, xanh mát
+                                                    </a>
+                                                </h3>
+                                                <div class="card-text text-light">
+                                                    <small class="news__new-thread__date">
+                                                        Ngày 31/05/2023
+                                                    </small>
+                                                    <small class="news__new-thread__author fw-bold d-none">
+                                                        Theo Vietravel
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="card card-full news__travel-tips__item position-relative">
+                                        <div class="news__travel-tips__item__image">
+                                            <a href="">
+                                                <img src="https://wiki-travel.com.vn/uploads/post/camnhi-230831110831-du-lich-phan-thiet-mui-ne-tu-tuc.jpg">
+                                            </a>
+                                            <div class="news__travel-tips__item__information position-absolute p-3 bottom-0 w-100 bg-shadow">
+                                                <h3 class="h3 h4-sm h3-md card-title mb-3">
+                                                    <a href="" class="text-white">
+                                                        Du lịch Phan Thiết - Mũi Né tự túc nên đi đâu, trải nghiệm gì?
+                                                    </a>
+                                                </h3>
+                                                <div class="card-text text-light">
+                                                    <small class="news__new-thread__date">
+                                                        Ngày 31/05/2023
+                                                    </small>
+                                                    <small class="news__new-thread__author fw-bold d-none">
+                                                        Theo Vietravel
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-12">
+                                    <div class="card card-full news__travel-tips__item position-relative">
+                                        <div class="news__travel-tips__item__image">
+                                            <a href="">
+                                                <img src="https://wiki-travel.com.vn/uploads/post/camnhi-233231043235-du-lich-khao-yai-thai-lan.jpg">
+                                            </a>
+                                            <div class="news__travel-tips__item__information position-absolute p-3 bottom-0 w-100 bg-shadow">
+                                                <h3 class="h3 h4-sm h3-md card-title mb-3">
+                                                    <a href="" class="text-white">
+                                                        Địa điểm du lịch mùa hè ở Thái Lan - Khao Yai yên bình, xanh mát
+                                                    </a>
+                                                </h3>
+                                                <div class="card-text text-light">
+                                                    <small class="news__new-thread__date">
+                                                        Ngày 31/05/2023
+                                                    </small>
+                                                    <small class="news__new-thread__author fw-bold d-none">
+                                                        Theo Vietravel
+                                                    </small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="news__travel-experience">
+                        <div class="d-flex mb-3 justify-content-between news__travel-tips__heading align-items-center">
+                            <h2 class="fw-bold">Kinh nghiệm du lịch</h2>
+                            <a href="" class="fw-bold h6">Xem tất cả</a>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-12">
+                                <div class="card news__travel-experience__item">
+                                    <div class="news__travel-experience__item__image mb-3">
+                                        <a href="./news-detail.html">
+                                            <img src="https://media.travel.com.vn/Time/GroupDiscovery/gd_151113_kinh-nghiem-du-lich-thai-lan.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text mb-3 fw-bold">Kinh Nghiệm Du Lịch</p>
+                                        <h3 class="card-title fw-bold">
+                                            <a href="./news-detail.html">Kinh nghiệm du lịch Thái Lan</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="card news__travel-experience__item">
+                                    <div class="news__travel-experience__item__image mb-3">
+                                        <a href="./news-detail.html">
+                                            <img src="https://media.travel.com.vn/Time/GroupDiscovery/gd_160108_Hongkong 4.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text mb-3 fw-bold">Kinh Nghiệm Du Lịch</p>
+                                        <h3 class="card-title fw-bold">
+                                            <a href="./news-detail.html">Kinh nghiệm du lịch Hồng Kông &amp; Macau</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <div class="card news__travel-experience__item">
+                                    <div class="news__travel-experience__item__image mb-3">
+                                        <a href="./news-detail.html">
+                                            <img src="https://media.travel.com.vn/Time/GroupDiscovery/gd_160112_bac kinh - co cung.jpg">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-text mb-3 fw-bold">Kinh Nghiệm Du Lịch</p>
+                                        <h3 class="card-title fw-bold">
+                                            <a href="./news-detail.html">Kinh nghiệm du lịch Trung Quốc</a>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-6 block two-line">
+                            <h4>
+                                Du lịch trong nước
+                            </h4>
+                            <ul class="menu">
+                                <li class="menu-item"><a href="">Hà Nội</a></li>
+                                <li class="menu-item"><a href="">Hải Phòng</a></li>
+                                <li class="menu-item"><a href="">Hạ Long</a></li>
+                                <li class="menu-item"><a href="">Huế</a></li>
+                                <li class="menu-item"><a href="">Quảng Bình</a></li>
+                                <li class="menu-item"><a href="">Đà Nẵng</a></li>
+                                <li class="menu-item"><a href="">Quảng Nam</a></li>
+                                <li class="menu-item"><a href="">Nha Trang</a></li>
+                            </ul>
+                            <ul class="menu">
+                                <li class="menu-item"><a href="">Đà Lạt</a></li>
+                                <li class="menu-item"><a href="">Phan Thiết</a></li>
+                                <li class="menu-item"><a href="">Bà Rịa - Vũng Tàu</a></li>
+                                <li class="menu-item"><a href="">Phú Quốc</a></li>
+                                <li class="menu-item"><a href="">Cần Thơ</a></li>
+                                <li class="menu-item"><a href="">HÀ TIÊN</a></li>
+                                <li class="menu-item"><a href="">Bắc Kạn</a></li>
+                                <li class="menu-item"><a href="">Hà Giang</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-6 block two-line">
+                            <h4>
+                                <a href="">Du lịch nước ngoài</a>
+                            </h4>
+                            <ul class="menu">
+                                <li class="menu-item"><a href="">Trung Quốc</a></li>
+                                <li class="menu-item"><a href="">Thái Lan</a></li>
+                                <li class="menu-item"><a href="">Malaysia</a></li>
+                                <li class="menu-item"><a href="">Singapore</a></li>
+                                <li class="menu-item"><a href="">Hàn Quốc</a></li>
+                                <li class="menu-item"><a href="">Úc</a></li>
+                                <li class="menu-item"><a href="">Mỹ - Hoa Kỳ</a></li>
+                                <li class="menu-item"><a href="">Nhật Bản</a></li>
+                            </ul>
+                            <ul class="menu">
+                                <li class="menu-item"><a href="">Ấn Độ</a></li>
+                                <li class="menu-item"><a href="">Philippines</a></li>
+                                <li class="menu-item"><a href="">Maldives</a></li>
+                                <li class="menu-item"><a href="">Na Uy</a></li>
+                                <li class="menu-item"><a href="">Tây Ban Nha</a></li>
+                                <li class="menu-item"><a href="">Hà Lan</a></li>
+                                <li class="menu-item"><a href="">Đức </a></li>
+                                <li class="menu-item"><a href="">Anh</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-6 block">
+                            <h4>Dòng tour</h4>
+                            <ul class="menu">
+                                <li class="menu-item"><a href="">Cao cấp</a></li>
+                                <li class="menu-item"><a href="">Tiêu chuẩn</a></li>
+                                <li class="menu-item"><a href="">Tiết kiệm</a></li>
+                                <li class="menu-item"><a href="">Giá tốt</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-6 block">
+                            <h4>Ứng dụng di động</h4>
+                            <div class="ft-app">
+                                <a href="" rel="nofollow noreferrer" target="_blank">
+                                    <img src="./assets/images/ggp.png" alt="image">
+                                </a>
+                                <a href="" rel="nofollow noreferrer" target="_blank">
+                                    <img src="./assets/images/aps.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="mb-app">
+                                <div class="android">
+                                    <p>Android</p>
+                                    <a href="" rel="nofollow noreferrer" target="_blank">
+                                        <img src="./assets/images/image42.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="ios">
+                                    <p>iOS</p>
+                                    <a href="" rel="nofollow noreferrer" target="_blank">
+                                        <img src="./assets/images/image43.png" alt="image">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6 block contact-block">
+                            <h4>Liên hệ</h4>
+                            <div class="contact-info">
+                                190 Pasteur, Phường Võ Thị Sáu, Quận 3, TP<br> HCM
+                                <br> (+84 28) 3822 8898<br> (+84 28) 3829 9142<br> info@vietravel.com
+                            </div>
+                            <h4>Mạng xã hội</h4>
+                            <ul class="socials">
+                                <li class="social">
+                                    <a href="" target="_blank" rel="nofollow noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li class="social">
+                                    <a href="" target="_blank" rel="nofollow noreferrer"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li class="social">
+                                    <a href="" target="_blank" rel="nofollow noreferrer"><i class="fab fa-viber"></i></a>
+                                </li>
+                                <li class="social">
+                                    <a href="" target="_blank" rel="nofollow noreferrer"><i class="icon icon--zalo"></i></a>
+                                </li>
+                                <li class="social">
+                                    <a href="" target="_blank" rel="nofollow noreferrer"><i class="fab fa-youtube"></i></a>
+                                </li>
+                            </ul>
+                            <div class="call-action">
+                                <a href="tel:1900 1839"><i class="fa-light fa-phone"></i>1900 1839</a>
+                            </div>
+                            <p>Từ 8:00 - 22:00 hàng ngày</p>
+                        </div>
+                        <div class="col-md-3 col-6 block">
+                            <h4>Thông tin</h4>
+                            <ul class="menu">
+                                <li class="menu-item"><a href="" target="_blank" rel="nofollow noreferrer">Tạp chí du lịch</a></li>
+                                <li class="menu-item"><a href="">Cẩm nang du lịch</a></li>
+                                <li class="menu-item"><a href="">Tin tức</a></li>
+                                <li class="menu-item"><a href="">Sitemap</a></li>
+                                <li class="menu-item"><a href="">FAQs</a></li>
+                                <li class="menu-item"><a href="">Chính sách riêng tư</a></li>
+                                <li class="menu-item"><a href="">Thỏa thuận sử dụng</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12 block">
+                            <h4>Newsletter</h4>
+                            <div class="newsletter form">
+                                <form action="" method="post">
+                                    <input type="text" name="EmailRegister" placeholder="Email của Quý khách" id="EmailRegisterFooter" required="required">
+                                    <input type="submit" name="submit" class="sm" value="">
+                                    <i class="fa-light fa-envelope"></i>
+                                </form>
+                            </div>
+                            <h4>Tìm kiếm thông tin</h4>
+                            <div class="search form">
+                                <form action="" method="post">
+
+                                    <input type="text" name="search" placeholder="Tour du lịch, điểm đến...">
+                                    <input type="submit" name="submit" class="sm" value="">
+                                    <i class="fa-light fa-magnifying-glass"></i>
+                                </form>
+                            </div>
+                            <div class="securi-payment">
+                                <div class="securi">
+                                    <h4>Chứng nhận</h4>
+                                    <a href="" rel="nofollow noreferrer" target="_blank">
+                                        <img src="./assets/images/image39.png" alt="image">
+                                    </a>
+                                    <a href="" rel="nofollow noreferrer" target="_blank">
+                                        <img src="./assets/images/image40.png" alt="image">
+                                    </a>
+                                </div>
+                                <div class="payment">
+                                    <h4>Chấp nhận thanh toán</h4>
+                                    <img src="./assets/images/image41.png" alt="image">
+                                    <img src="./assets/images/vnpay_qr1.png" alt="image">
+                                    <img src="./assets/images/vs.png" alt="image">
+                                    <img src="./assets/images/mtc.png" alt="image">
+                                    <img src="./assets/images/jcb.png" alt="image">
+                                    <img src="./assets/images/vrvs.png" alt="image">
+                                    <img src="./assets/images/shopeepay.png" alt="ShopeePay">
+                                    <img src="./assets/images/msb.png" alt="MSB">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-12">
+                            <div class="copy-right">
+                                <p>
+                                    Bản quyền của Vietravel ® 2022. Bảo lưu mọi quyền.<br> Ghi rõ nguồn "<a href="https://travel.com.vn">www.travel.com.vn</a>" ® khi sử dụng lại thông tin từ website này.<br> Số giấy phép kinh doanh lữ hành Quốc tế: 79-234/2022/TCDL-GP
+                                    LHQT
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <a href="javascript:void(0);" id="backtotop"><i class="fa-sharp fa-solid fa-angle-up"></i></a>
+
+    <script src="./assets/js/jquery-3.6.0.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js "></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js "></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flatpickr/4.6.13/flatpickr.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js "></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+
+    <script src="./assets/js/style.js "></script>
+    <script src="./assets/js/slide.js "></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
